@@ -24,9 +24,9 @@
 				'opacity #{_duration(article)} ease-in-out',
 				'transform #{_duration(article)} ease-in-out'
 			));
-			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
+			@include padding(1.5rem, 1.5rem, (1rem, 0, 1rem, 0));
 			position: relative;
-			width: 40rem;
+			width: 35rem;
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
@@ -68,7 +68,7 @@
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: svg-url('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>line { stroke: #{_palette(border)}; stroke-width: 1; }</style><line x1="2" y1="2" x2="18" y2="18" /><line x1="18" y1="2" x2="2" y2="18" /></svg>');
+					background-image: url('src=/static/images/travel.png');
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
