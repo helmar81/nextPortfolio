@@ -7,6 +7,7 @@ import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 import faPinterest from '@fortawesome/fontawesome-free-brands/faPinterest'
 
+
 class Main extends React.Component {
   render() {
 
@@ -112,7 +113,27 @@ class Main extends React.Component {
      <FontAwesomeIcon icon={faPinterest} />
    </a>
  </h1>
-{close}
+
+
+ <p></p>
+ <p></p>
+ <ul className="icons">
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a></li>
+            <li><a href="https://www.facebook.com/helmar.baechle" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebook} />
+            </a></li>
+            <li><a href="https://www.instagram.com/helmar.baechle/"  target="_blank" rel="noopener noreferrer" >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a></li>
+            <li><a href="https://github.com/helmar81/"  target="_blank" rel="noopener noreferrer" >
+              <FontAwesomeIcon icon={faGithub} />
+            </a></li>
+           
+          </ul>
+          {close}
+
 </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
@@ -215,7 +236,23 @@ class Main extends React.Component {
 </tr>
 
        </table>
-          {close}
+        
+       <ul className="icons">
+       <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+         <FontAwesomeIcon icon={faTwitter} />
+       </a></li>
+       <li><a href="https://www.facebook.com/helmar.baechle" target="_blank" rel="noopener noreferrer">
+         <FontAwesomeIcon icon={faFacebook} />
+       </a></li>
+       <li><a href="https://www.instagram.com/helmar.baechle/"  target="_blank" rel="noopener noreferrer" >
+         <FontAwesomeIcon icon={faInstagram} />
+       </a></li>
+       <li><a href="https://github.com/helmar81/"  target="_blank" rel="noopener noreferrer" >
+         <FontAwesomeIcon icon={faGithub} />
+       </a></li>
+     </ul>
+     {close}
+
           </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>

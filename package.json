@@ -9,7 +9,14 @@
     "start": "next start",
     "export": "next build && next export"
   },
-  "keywords": ["helmar", "baechle","webdesign","react","nextjs", "portfolio"],
+  "keywords": [
+    "helmar",
+    "baechle",
+    "webdesign",
+    "react",
+    "nextjs",
+    "portfolio"
+  ],
   "author": "Helmar Bachle",
   "license": "ISC",
   "dependencies": {
